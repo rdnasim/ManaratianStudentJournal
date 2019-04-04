@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Categorys.WebsiteActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10">
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/websiteView">
+        </WebView>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:id="@+id/websiteProgress"/>
+
+    </RelativeLayout>
+    <Button
+        android:id="@+id/backBtnWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".8"
+        android:text="Back"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:onClick="onClickBackBtnWebsite"
+        android:textColor="@color/colorGray"
+        android:textStyle="bold"
+        android:background="@color/design_default_color_primary">
+
+    </Button>
+
+
+</LinearLayout>

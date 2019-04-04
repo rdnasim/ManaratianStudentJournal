@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Manaratian - Student Journal</string>
+    <string name="title_activity_main_menu">Manaratian - Student Journal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Riadul Islam</string>
+    <string name="nav_header_subtitle">riadul@manarat.ac.bd</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="NewsText1">1. Freshers’ Reception and Get Together Program-2019(10 February 2019)</string>
+    <string name="NewsText2">2. MoU signed with Binary University, Malaysia(03 November 2018)</string>
+    <string name="title_activity_portal">PortalActivity</string>
+</resources>

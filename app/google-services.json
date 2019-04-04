@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "241869455373",
+    "firebase_url": "https://manaratianstudentjournal3.firebaseio.com",
+    "project_id": "manaratianstudentjournal3",
+    "storage_bucket": "manaratianstudentjournal3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:241869455373:android:40292bac32d00434",
+        "android_client_info": {
+          "package_name": "com.protoyanto.manaratian_studentjournal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "241869455373-qfvggo0ebs29f144pnpfigga9ena3res.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.protoyanto.manaratian_studentjournal",
+            "certificate_hash": "efd96befafe527824bd1df0bf6b190048f901106"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCl3Mg6TY-EyZSTtKftGf7uNCeeKb7_KIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "241869455373-rrepogs5d3ilcn14mge3glo718hcmlje.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
