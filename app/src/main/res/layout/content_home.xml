@@ -47,11 +47,13 @@
             android:background="@mipmap/notice_board"
             android:layout_marginRight="5dp"/>
         <ImageButton
+            android:id="@+id/departmentBtn"
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@mipmap/department"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:onClick="onCLickDepartmentBtn"/>
 
     </LinearLayout>
     <LinearLayout

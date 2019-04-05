@@ -16,6 +16,7 @@ import android.view.MenuItem;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.protoyanto.manaratian_studentjournal.Categorys.DepartmentActivity;
 import com.protoyanto.manaratian_studentjournal.Categorys.PortalActivity;
 import com.protoyanto.manaratian_studentjournal.Categorys.WebsiteActivity;
 
@@ -24,6 +25,7 @@ public class HomeActivity extends AppCompatActivity
 
     private ImageButton websiteBtn;
     private ImageButton portalBtn;
+    private ImageButton departmentBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -119,5 +121,11 @@ public class HomeActivity extends AppCompatActivity
                 Toast.LENGTH_SHORT)
                 .show();
 
+    }
+
+    public void onCLickDepartmentBtn(View view) {
+        Intent intent = new Intent(this, DepartmentActivity.class);
+        departmentBtn = findViewById(R.id.departmentBtn);
+        startActivity(intent);
     }
 }
