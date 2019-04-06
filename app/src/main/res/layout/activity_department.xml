@@ -24,6 +24,7 @@
             android:background="@drawable/department_icon_layout"/>
 
         <Button
+            android:id="@+id/cseViewBtn"
             android:layout_width="0dp"
             android:layout_weight="4"
             android:layout_height="match_parent"
@@ -31,9 +32,10 @@
             android:layout_margin="5dp"
             android:text="Computer Science and Engineering(CSE)"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:onClick="onCLickCSE"/>
 
     </LinearLayout>
     <LinearLayout
@@ -59,7 +61,7 @@
             android:layout_margin="5dp"
             android:text="Electronics and Electrical Engineering (EEE)"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -87,7 +89,7 @@
             android:layout_margin="5dp"
             android:text="Department Of Business Administration"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -115,7 +117,7 @@
             android:layout_margin="5dp"
             android:text="Department Of Pharmacy"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -143,7 +145,7 @@
             android:layout_margin="5dp"
             android:text="Department Of English"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -171,7 +173,7 @@
             android:layout_margin="5dp"
             android:text="Department of LAW"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -199,7 +201,7 @@
             android:layout_margin="5dp"
             android:text="Journalism and Media Studies"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 
@@ -227,7 +229,7 @@
             android:layout_margin="5dp"
             android:text="Center of General Education"
             android:textAllCaps="false"
-            android:autoSizeTextType="uniform"
+            android:textSize="20dp"
             android:textColor="@color/design_default_color_primary"
             android:textStyle="bold"/>
 

@@ -11,7 +11,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Categorys.DepartmentActivity"></activity>
+        <activity android:name=".StudentClub.StudentClubCategory"></activity>
+        <activity android:name=".CseView.CseTeacherView" />
+        <activity android:name=".CseView.CseViewCategory" />
+        <activity android:name=".Categorys.DepartmentActivity" />
         <activity android:name=".Categorys.PortalActivity" />
         <activity android:name=".Categorys.WebsiteActivity" />
         <activity
