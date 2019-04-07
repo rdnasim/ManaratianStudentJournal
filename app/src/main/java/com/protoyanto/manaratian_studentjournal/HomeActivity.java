@@ -19,6 +19,7 @@ import android.widget.Toast;
 import com.protoyanto.manaratian_studentjournal.Categorys.DepartmentActivity;
 import com.protoyanto.manaratian_studentjournal.Categorys.PortalActivity;
 import com.protoyanto.manaratian_studentjournal.Categorys.WebsiteActivity;
+import com.protoyanto.manaratian_studentjournal.StudentClub.StudentClubCategory;
 
 public class HomeActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -26,6 +27,7 @@ public class HomeActivity extends AppCompatActivity
     private ImageButton websiteBtn;
     private ImageButton portalBtn;
     private ImageButton departmentBtn;
+    private ImageButton studentClubBtn;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -126,6 +128,12 @@ public class HomeActivity extends AppCompatActivity
     public void onCLickDepartmentBtn(View view) {
         Intent intent = new Intent(this, DepartmentActivity.class);
         departmentBtn = findViewById(R.id.departmentBtn);
+        startActivity(intent);
+    }
+
+    public void onClickStudentClub(View view) {
+        Intent intent = new Intent(this, StudentClubCategory.class);
+        studentClubBtn = findViewById(R.id.studentClubBtn);
         startActivity(intent);
     }
 }
